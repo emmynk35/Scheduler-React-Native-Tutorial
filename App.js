@@ -1,7 +1,7 @@
 import React from 'react';
-import { SafeAreaView, StyleSheet, Text } from 'react-native';
+import { SafeAreaView, StyleSheet, Text } from 'react-native'; 
 import CourseList from './components/CourseList';
-  
+
 const schedule = {
   "title": "CS Courses for 2018-2019",
   "courses": [
@@ -28,6 +28,7 @@ const schedule = {
   ]
 };
 
+
 const Banner = ({ title }) => (
   <Text style={styles.banner}>{ title }</Text>
 );
@@ -51,7 +52,7 @@ const styles = StyleSheet.create({
   banner: {
     color: '#888',
     fontSize: 32,
-  },
+  }
 });
 
 export default App;
