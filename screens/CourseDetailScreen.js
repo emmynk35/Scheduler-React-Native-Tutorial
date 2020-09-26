@@ -10,7 +10,7 @@ const Field = ({label, value}) => {
   );
 };
 
-const CourseDetailScreen = ({route}) => {
+const CourseDetailScreen = ({navigation, route}) => {
   const course = route.params.course;
 
   return (
